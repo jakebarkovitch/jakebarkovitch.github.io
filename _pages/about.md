@@ -23,6 +23,4 @@ Having grown up on a sustainable agriculture farm, I have always been passionate
 
 My experience as a researcher allowed me to obtain a position as a Data Science Research Associate at a startup company directly involved in lowering harmful emissions from power plants. This rewarding position lets me leave a positive impact on the planet. Through analyzing furnace sensors and camera image data, we can optimize the combustion of fuel in real-time for improved efficiency and functionality.
 
-[]: # "Since then I have also participated in a data analytics internship at Ascension Healthcare for their supply chain optimization subsidiary called The Resource Group. During the internship I taught myself SQL and Tableau in order to help their GPO finance team construct a dashboard highlighting 20 million dollars in potential revenue through admin fee collection. This has been one of my most rewarding projects to date and i hope to leverage the skills I leanred in my future positions."
-
 My goal is to continue to improve society and the planet in one way or another, and my hope is that the company I eventually work for shares this goal.
