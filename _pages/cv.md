@@ -1,6 +1,6 @@
 ---
 layout: 
-permalink: /resume/
+permalink: /assets/pdf/Barkovitch_Resume.pdf
 title: resume
 nav: true
 nav_order: 4
