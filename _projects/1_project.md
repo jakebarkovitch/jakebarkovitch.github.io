@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Ascension Healthcare Analyst Projects
 description: My projects during my internship at The Resource Group
 img: assets/img/trg_logo.jfif
 importance: 1
@@ -53,7 +53,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
         {% include figure.html path="assets/img/trg_dash.png" title="admin audit fee dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/trg_results.png" title="raw data" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/trg_results.jpg" title="raw data" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
