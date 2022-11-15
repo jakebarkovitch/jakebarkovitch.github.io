@@ -67,14 +67,36 @@ To make images responsive, add `img-fluid` class to each; for rounded corners an
 Here's the code for the last row of images above:
 
 {% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+```sql
+(SELECT vw_Pilot_Contracts.MainContract as contract_no,vw_Pilot_Contracts.GPO_Percent AS gpo_percent, vw_Pilot_Contracts.Discipline,
+        'NON Contracted' AS spend_contract, vw_SpendData.YearMonth,
+        SUM(vw_SpendData.TotalPurchase) AS spend_purchase,
+    SUM((vw_Pilot_Contracts.GPO_Percent/100)*vw_SpendData.TotalPurchase) AS spend_due
+
+--     SUM(vw_SpendData.TotalPurchase*vw_Pilot_Contracts.GPO_Percent) AS spend_due
+FROM vw_SpendData
+INNER JOIN vw_PriceExport_History ON vw_SpendData.MfgCatalogCode = vw_PriceExport_History.Cleansed_PartNo
+AND vw_SpendData.GlobalSupplierName = vw_PriceExport_History.Cleansed_MFGName
+INNER JOIN vw_Pilot_Contracts ON vw_PriceExport_History.Contract = vw_Pilot_Contracts.Contract
+WHERE vw_SpendData.ContractNumber = 'NON Contracted'
+    AND vw_SpendData.YearMonth >= 202007
+  AND vw_SpendData.YearMonth <= 202106
+    AND vw_SpendData.TotalPurchase IS NOT NULL
+    AND vw_SpendData.MfgCatalogCode != 'MFGCATUNKNOWN' AND vw_SpendData.MfgCatalogCode != 'SUPPLIERCATUNKNOWN'
+AND vw_PriceExport_History.Pricing_EffectiveDate <= vw_SpendData.FullDate AND vw_SpendData.FullDate <= vw_PriceExport_History.Contract_ExpirationDate
+group by vw_Pilot_Contracts.MainContract, vw_Pilot_Contracts.GPO_Percent, vw_SpendData.YearMonth, vw_Pilot_Contracts.Discipline)
+UNION
+(SELECT vw_Pilot_Contracts.MainContract as contract_no,vw_Pilot_Contracts.GPO_Percent AS gpo_percent, vw_Pilot_Contracts.Discipline,
+        vw_Pilot_Contracts.MainContract AS spend_contract,vw_SpendData.YearMonth,
+        SUM(vw_SpendData.TotalPurchase) AS spend_purchase,
+    SUM((vw_Pilot_Contracts.GPO_Percent/100)*vw_SpendData.TotalPurchase) AS spend_due
+--     SUM(vw_SpendData.TotalPurchase*vw_Pilot_Contracts.GPO_Percent) AS total_due
+FROM vw_SpendData
+INNER JOIN vw_Pilot_Contracts ON vw_SpendData.ContractNumber = vw_Pilot_Contracts.Contract
+WHERE vw_SpendData.ContractNumber != 'NON Contracted'
+  AND vw_SpendData.YearMonth >= 202007
+  AND vw_SpendData.YearMonth <= 202106
+    AND vw_SpendData.TotalPurchase IS NOT NULL
+group by vw_Pilot_Contracts.MainContract, vw_Pilot_Contracts.GPO_Percent,vw_SpendData.YearMonth, vw_Pilot_Contracts.Discipline)
 ```
 {% endraw %}
