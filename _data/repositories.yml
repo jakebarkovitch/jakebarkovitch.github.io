@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jbarks1234
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - szaman19/Materials-Search
+  - avaj327/NWRDBProject
+  - jbarks1234/HackBU-2021-ThirdEye
+  - jbarks1234/MOFGCN
