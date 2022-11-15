@@ -71,7 +71,7 @@ gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: jake-barkovitch
-scholar_userid: # your Google Scholar ID
+scholar_userid: qgc3zC4AAAAJ&hl
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -128,8 +128,8 @@ disqus_shortname: # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: https://lawlergroup.lassp.cornell.edu
+    rss_url: https://lawlergroup.lassp.cornell.edu/blog/
 
 # -----------------------------------------------------------------------------
 # Collections
