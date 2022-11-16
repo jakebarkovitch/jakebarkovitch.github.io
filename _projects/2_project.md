@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Upwage: wage disparity calculator
+title: "Upwage: wage disparity calculator"
 description: 2021 Hackathon project for showcasing wage disparities.
 img: assets/img/UpWageBox.png
 importance: 1
