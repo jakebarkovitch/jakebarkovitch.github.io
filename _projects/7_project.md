@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Reinforcement Learning Chess Solving AI
-description: A personal project of a chess solving bot using reinforcement learning.
-img: assets/img/chess.png
+title: Improving StyleGAN2 for 3D Data
+description: My research involving implementing StyleGAN2 for 3D molecular energy grid data.
+img: assets/img/mof_energy.png
 importance: 4
-category: personal
+category: professional
 ---
 
 to be completed
