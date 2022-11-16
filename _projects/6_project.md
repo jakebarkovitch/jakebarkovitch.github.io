@@ -7,4 +7,4 @@ importance: 3
 category: personal
 ---
 
-to be completed
+page unfinished
