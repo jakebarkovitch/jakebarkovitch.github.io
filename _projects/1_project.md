@@ -36,17 +36,14 @@ To give your project a background in the portfolio page, just add the img tag to
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Capture55.PNG" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Capture55.PNG" title="geospatial dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Geospatial Tableau dashboard of 60+ distributor warehouses highlighting costly freight and re-routed lines.
 </div>
 
-My second and most prevalent project involved working with the finance group purchasing organization to calculate untracked administration fees. These admin fees are related to vendor contracts where they need to pay a percentage of all spend on that contract, usually between 3-5%. The issue is that the fees are self reported by the vendors so it falls onto the finance team to track if any vendors are not paying the fees in full. This is usually easy enough for most contracts, but there are many edge cases that are hard to keep track of. One such case involves off-contract
-
-The fees that are hard to track are mostly correlated to off-contract purchases. so another issue is that these fees an entire admin fee audit would be required in order to see the differences between the true and self reported
-
+My second and most prevalent project involved working with the finance group purchasing organization to calculate untracked administration fees. These admin fees are related to vendor contracts where they need to pay a percentage of all spend on that contract, usually between 3-5%. The issue is that the fees are self reported by the vendors so it falls onto the finance team to track if any vendors are not paying the fees in full. This is usually easy enough for most contracts, but there are many edge cases that are hard to keep track of. One such case involves off-contract spend that is still susceptible to admin fees under specific clauses of a vendor's contract. My team's project was to create a process for tracking these fees. We led the entire design and implementation with only minor guidance from the finance team. I personally led the SQL development and most of the Tableau deployment. This required me to learn a lot of new skills because I did not know how to use Tableau and I only had minor SQL experience. Overall this was a very rewarding project that ended with a very beneficial product for the company. For my contributions I was personally invited to a 1:1 meeting with the CEO of The Resource Group. It was a very invaluable experience that I still reflect on to this day.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
