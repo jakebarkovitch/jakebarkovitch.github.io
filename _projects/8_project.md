@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Reinforcement Learning Chess Solving AI
-description: A personal project of a chess solving bot using reinforcement learning.
-img: assets/img/chess.png
+title: Implementing Gradient Descent for Complex Functions in Julia
+description: A personal project of GD implementation in Julia with comparison to Python implementation.
+img: assets/img/gd.png
 importance: 4
 category: personal
 ---
