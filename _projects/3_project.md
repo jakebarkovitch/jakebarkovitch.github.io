@@ -7,4 +7,4 @@ importance: 2
 category: professional
 ---
 
-work in progress
+to be completed
