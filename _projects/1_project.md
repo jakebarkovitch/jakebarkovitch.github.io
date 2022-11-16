@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Ascension Healthcare Analyst Projects
-description: My projects during my internship at The Resource Group
+title: Ascension Healthcare Projects
+description: My two main projects during my data analyst internship at The Resource Group.
 img: assets/img/trg_logo.jfif
 importance: 1
 category: professional
@@ -43,9 +43,9 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+My second and most prevalent project involved working with the finance group purchasing organization to calculate untracked administration fees. These admin fees are related to vendor contracts where they need to pay a percentage of all spend on that contract, usually between 3-5%. The issue is that the fees are self reported by the vendors so it falls onto the finance team to track if any vendors are not paying the fees in full. This is usually easy enough for most contracts, but there are many edge cases that are hard to keep track of. One such case involves off-contract
+
+The fees that are hard to track are mostly correlated to off-contract purchases. so another issue is that these fees an entire admin fee audit would be required in order to see the differences between the true and self reported
 
 
 <div class="row justify-content-sm-center">
@@ -57,14 +57,10 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Admin audit fee dashboard and related raw data extract from the SQL servers. Account and contract names censored for confidentiality.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The SQL code I personally wrote to connect SQL databases and calculate relevant fees for fiscal year 2021. It spans three separate databases to join required details and filter for desired results. This SQL code fed directly into the Tableau dashboard shown above. The dashboard also had a separate connection to a second SQL server to acquire corresponding self reported fees from the vendors.
 
 {% raw %}
 ```sql
