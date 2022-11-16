@@ -7,33 +7,9 @@ importance: 1
 category: professional
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+My First project was on tracking freight data for my local hospital branch that I was working out of. The hospital wanted to understand the discrepancies within their freight costs and what factors led to costlier freight. There were many issues involved since a lot of data was simply not provided by the distributors. A large portion of the project involved meeting with these vendors to request relevant data extracts and information. Eventually I was able to put together a geospatial Tableau dashboard of all the distributor warehouses with distance, quantity, freight, shipping, and description metrics. This allowed the hospital to filter for specific items such as solutions which were a target item for expensive freight. They could also analyze stat orders and where they were coming from. This project implemented many requests of the local freight team and I was able to efficiently implement them in a way that benefited them the most. I definitely learned a lot and was able to leverage them in my company wide project which I detail below.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Capture55.PNG" title="geospatial dashboard" class="img-fluid rounded z-depth-1" %}
@@ -57,7 +33,7 @@ My second and most prevalent project involved working with the finance group pur
     Admin audit fee dashboard and related raw data extract from the SQL servers. Account and contract names censored for confidentiality.
 </div>
 
-The SQL code I personally wrote to connect SQL databases and calculate relevant fees for fiscal year 2021. It spans three separate databases to join required details and filter for desired results. This SQL code fed directly into the Tableau dashboard shown above. The dashboard also had a separate connection to a second SQL server to acquire corresponding self reported fees from the vendors.
+Below is the SQL code I personally wrote to connect SQL databases and calculate relevant fees for fiscal year 2021. It spans three separate databases to join required details and filter for desired results. This SQL code fed directly into the Tableau dashboard shown above. The dashboard also had a separate connection to a second SQL server to acquire corresponding self reported fees from the vendors.
 
 {% raw %}
 ```sql
