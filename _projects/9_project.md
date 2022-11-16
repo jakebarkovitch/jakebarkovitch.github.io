@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ThermoAI: Cyber Anomoly Detection"
-description: Using vibration anomaly identification to demonstrate that machine learning models can differentiate anomalies from cyber attacks.
+description: Using vibration readings from physical sensors to detect cyber threat anomalies.
 img: assets/img/anom.png
 importance: 5
 category: professional
