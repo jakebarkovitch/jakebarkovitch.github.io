@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Reinforcement Learning Chess Solving AI
-description: A personal project of a chess solving bot using reinforcement learning.
-img: assets/img/chess.png
-importance: 4
+title: Sampling Points in Higher Dimensional Spheres using OpenMP Parallelization
+description: A high performance computing project on illustrating the distances of points from the surfaces of higher dimensional spheres.
+img: assets/img/ss_plot.png
+importance: 2
 category: personal
 ---
 
