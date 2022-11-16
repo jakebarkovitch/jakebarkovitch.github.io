@@ -7,4 +7,4 @@ importance: 2
 category: personal
 ---
 
-work in progress
+to be completed
