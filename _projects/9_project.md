@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Reinforcement Learning Chess Solving AI
-description: A personal project of a chess solving bot using reinforcement learning.
-img: assets/img/chess.png
-importance: 4
-category: personal
+title: "ThermoAI: Cyber Anomoly Detection"
+description: Using vibration anomaly identification to demonstrate that machine learning models can differentiate anomalies from cyber attacks.
+img: assets/img/anom.png
+importance: 5
+category: professional
 ---
 
 to be completed
