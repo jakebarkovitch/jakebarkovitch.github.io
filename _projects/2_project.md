@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Upwage: wage disparity calculator
+description: 2021 Hackathon project for showcasing wage disparities.
+img: assets/img/UpWageBox.png
 importance: 1
 category: personal
 ---
 
-<iframe src="https://jakebarkovitch.tech/assets/main.html" title="upwage site" width="90%" height="400"></iframe>
+<iframe src="https://jakebarkovitch.tech/assets/main.html" title="upwage site" width="100%" height="700"></iframe>
