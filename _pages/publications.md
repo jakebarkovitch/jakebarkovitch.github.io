@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: My journal publications and accepted abstracts.
-years: [2022]
+years: [2021, 2022]
 nav: true
 nav_order: 1
 ---
