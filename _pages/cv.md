@@ -1,8 +1,9 @@
 ---
-layout: 
-permalink: /assets/pdf/Barkovitch_Resume.pdf
+layout: page
 title: Resume
-nav: true
 nav_order: 4
-cv_pdf: Barkovitch_Resume.pdf
 ---
+
+Resume:
+
+<iframe src="https://jakebarkovitch.tech/assets/pdf/Barkovitch_Resume.pdf" title="upwage site" width="100%" height="700"></iframe>
