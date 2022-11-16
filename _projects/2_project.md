@@ -7,4 +7,4 @@ importance: 1
 category: personal
 ---
 
-<iframe src="https://jakebarkovitch.tech/assets/main.html" title="upwage site"></iframe>
+<iframe src="https://jakebarkovitch.tech/assets/main.html" title="upwage site" width="90%" height="400"></iframe>
