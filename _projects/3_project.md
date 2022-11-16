@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "ThermoAI: boiler optimization"
+title: "ThermoAI: Boiler Optimization"
 description: work in progress
 img: assets/img/thermo_furnace.jpg
 importance: 2
