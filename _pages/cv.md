@@ -1,4 +1,4 @@
-re---
+---
 layout: page
 permalink: /resume/
 title: Resume
