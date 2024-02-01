@@ -6,5 +6,5 @@ description: By Jacob Barkovitch
 tags: combustion, thermodynamics, machine-learning, analytics
 ---
 
-<iframe src="https://jakebarkovitch.com/assets/pdf/Deep_Thermal.pdf" title="deep thermal" width="90%" height="800" frameBorder="0"></iframe>
+<iframe src="https://jakebarkovitch.com/assets/pdf/DeepThermal.pdf" title="deep thermal" width="90%" height="800" frameBorder="0"></iframe>
 
