@@ -7,4 +7,4 @@ importance: 4
 category: personal
 ---
 
-page unfinished
+<iframe src="https://jakebarkovitch.com/assets/gd_julia.pdf" title="gd in julia" width="100%" height="700"></iframe>
