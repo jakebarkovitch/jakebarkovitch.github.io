@@ -6,5 +6,5 @@ description: By Jacob Barkovitch
 tags: stylegan2, energy-grids, machine-learning, generative-adversarial-networks
 ---
 
-<iframe src="https://jakebarkovitch.com/assets/pdf/ML_final_presentation.pdf" title="improving stylegan2" width="90%" height="800" frameBorder="0"></iframe>
+<iframe src="https://jakebarkovitch.com/assets/pdf/improved_stylegan.pdf" title="improving stylegan2" width="90%" height="800" frameBorder="0"></iframe>
 
