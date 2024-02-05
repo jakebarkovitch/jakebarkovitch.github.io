@@ -7,4 +7,5 @@ importance: 4
 category: professional
 ---
 
-page unfinished
+
+<iframe src="https://jakebarkovitch.com/assets/improved_stylegan.pdf" title="gd in julia" width="100%" height="700"></iframe>
