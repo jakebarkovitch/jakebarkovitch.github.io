@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: My professional and personal projects (page unfinished)
+description: My professional and personal projects
 nav: true
 nav_order: 2
 display_categories: [professional, personal]
