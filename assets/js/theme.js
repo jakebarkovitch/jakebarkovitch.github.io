@@ -50,7 +50,7 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
-  if (theme == null || theme == 'null') {
+  if (theme == null || theme == 'null' || theme != 'dark') {
     theme = 'dark';
     // const userPref = window.matchMedia;
     // if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
